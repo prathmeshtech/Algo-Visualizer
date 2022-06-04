@@ -62,7 +62,15 @@ export default class SortingVisualizer extends React.Component {
   }
 
   quickSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
+  
+function quickSort(stateArray, dispatch, speed) {
+  let array = stateArray.slice(0),
+      toDispatch = [];
+ 
+  return array;
+}
+
+
   }
 
   heapSort() {
